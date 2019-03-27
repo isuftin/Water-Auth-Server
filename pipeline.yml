@@ -1,0 +1,5 @@
+artifactoryPath: "water_auth_server"
+gitlabPath: "wma-devops-public/waterauth-server"
+dockerImageName: "water_auth_server"
+gitRepoUrl: "https://github.com/USGS-CIDA/Water-Auth-Server.git"
+gitRepoCredentialsId: "Jenkins-GitHub-Read-Write-Token"
