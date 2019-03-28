@@ -40,7 +40,7 @@ pipeline {
         stage('build server docker image') {
             steps {
                 script {
-                    dockerPipeline.buildDockerArtifact(p.artifactoryPath, p.gitlabPath, p.dockerImageName, './', false)
+                    dockerPipeline.buildDockerArtifact(p.artifactoryPath, p.gitlabPath, p.dockerImageName)
                 }
             }
         }
