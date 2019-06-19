@@ -3,9 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>gov.usgs.wma</groupId>
     <artifactId>waterauthserver</artifactId>
-    <!-- Don't remove or change the comment on the next line, it's used by
-     .bumpversion.cfg to find where to replace the version on release. -->
-    <version>0.4.0-SNAPSHOT</version><!-- PACKAGE VERSION HERE -->
+    <version>0.4.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <parent>
